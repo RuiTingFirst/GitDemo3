@@ -12,4 +12,9 @@ public class MainActivity extends AppCompatActivity {
         // 123333
         String a = "123";
     }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
 }
